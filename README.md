@@ -2,7 +2,8 @@
 MHQG-llama3-reranker
 ## Overview
 
-![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/1129da6d-375b-477f-9632-ece97f0a0191)
+![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/fae2a828-8c58-4c85-b4ef-2136af6a2030)
+
 
 
 ## Data
