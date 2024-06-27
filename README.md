@@ -14,14 +14,6 @@ MHQG-llama3-reranker
 project-name/
 │
 ├── pissa/
-│   ├── cache
-│   ├── file1.ext
-│   ├── file1.ext
-│   ├── file1.ext
-│   ├── file1.ext
-│   ├── file1.ext
-│   ├── file1.ext
-│   └── file2.ext
 ├── nice_prompt.txt
 ├── nice_prompt2.txt
 ├── peft_run.py
@@ -53,19 +45,9 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-
-
-
-
-## Reranker
-
-
-
 ## Inference
-
-
-
-```
+微调模型的推理代码
+```bash
 python peft_run.py
 ```
 
