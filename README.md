@@ -9,8 +9,8 @@ MHQG-llama3-reranker
 ![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/fae2a828-8c58-4c85-b4ef-2136af6a2030)
 
 
-
-```
+### Directory
+```bash
 project-name/
 │
 ├── pissa/
@@ -28,12 +28,11 @@ project-name/
 ├── requirements.txt
 ├── reranker.py
 └── results_dev.json
-    
 
 ```
 
 
-# Get Started
+# Getting Started
 
 ## Installation
 
@@ -43,7 +42,8 @@ pip install -r requirements.txt
 ```
 
 ### PiSSA
-![# LLaMA Factory](assets/logo.png)
+![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/b63bcede-8830-4d3e-b361-7e4a826c85e8)
+
 > [!IMPORTANT]
 > Installation is mandatory.
 
