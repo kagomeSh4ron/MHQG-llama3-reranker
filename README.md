@@ -12,13 +12,13 @@
 ```bash
 project-name/
 │
-├── pissa/
-├── nice_prompt.txt
-├── nice_prompt2.txt
-├── peft_run.py
-├── requirements.txt
-├── reranker.py
-└── results_dev.json
+├── pissa/                 # 微调代码文件夹
+├── nice_prompt.txt        # 桥接型提示词样例
+├── nice_prompt2.txt       # 比较型提示词样例
+├── peft_run.py            # 模型推理
+├── requirements.txt       # 环境配置
+├── reranker.py            # 词袋检索器的实现
+└── results_dev.json       # 最终生成的多跳问题
 
 ```
 
