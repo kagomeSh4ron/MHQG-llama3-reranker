@@ -10,7 +10,7 @@
 
 ### Directory
 ```bash
-project-name/
+Code/
 │
 ├── pissa/                 # 微调代码文件夹
 ├── nice_prompt.txt        # 桥接型提示词样例
@@ -18,7 +18,9 @@ project-name/
 ├── peft_run.py            # 模型推理
 ├── requirements.txt       # 环境配置
 ├── reranker.py            # 词袋检索器的实现
+├── reranker_test.py       # reranker的测试代码
 └── results_dev.json       # 最终生成的多跳问题
+
 
 ```
 
