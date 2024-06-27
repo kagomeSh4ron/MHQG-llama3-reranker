@@ -4,6 +4,20 @@ MHQG-llama3-reranker
 
 ![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/fae2a828-8c58-4c85-b4ef-2136af6a2030)
 
+project-name/
+│
+├── dir1/
+│   ├── file1.ext
+│   └── file2.ext
+│
+├── dir2/
+│   ├── sub-dir1/
+│   │   └── file3.ext
+│   └── sub-dir2/
+│
+└── dir3/
+    ├── file4.ext
+    └── file5.ext
 
 
 ## Data
