@@ -2,7 +2,8 @@
 MHQG-llama3-reranker
 ## Overview
 
-![img](http://www.kdocs.cn/api/v3/office/copy/cDkyb3BxazF2M0ZHOVU4QnpvMTdmdnlKZFpiNzFndDRrRlBNU0NMeUFQSHJLRE9QWmdNQkFFWmJlVEQwUHVvcU5NMkNiMjBXWisvRENqMHFvckoxd3liRFQ2TkpvU0NReTczc2U4clBOaHBsQkVpd05oaTVGSVNNSElzY1grTG5MT1dzb0xVTnRjWHBoYnFWTVVUUGFkVlFsSW5TaklqTHlEaFk0QWpuTWNxeXA1UG42S2tkbEw3ajNFYVVtbWdQZ0VlbGptVEtsdllxTjBMRi8rSjl6SG8ySERRejc1cWNUd0IrOWpESEVhRWVWRzRTYXZkWHVOem9RZ0ppbmc1OFp3SHFsTWdQVEE0PQ==/attach/object/aefa79327aa345d80c8844a061c40e71f4c840d4?)
+![image](https://github.com/kagomeSh4ron/MHQG-llama3-reranker/assets/138695155/1129da6d-375b-477f-9632-ece97f0a0191)
+
 
 ## Data
 
