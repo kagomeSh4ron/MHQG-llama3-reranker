@@ -1,0 +1,94 @@
+    prompt="""
+[
+                "Plantago asiatica",
+                [
+                    "Plantago asiatica, is a self-fertile, perennial flowering plant of genus \"Plantago\".",
+                    " It is in flower from July to August.",
+                    " The plant is native to East Asia (China, Japan, Korea, etc.).",
+                    " It grows really well in disturbed areas like roadsides or even dirt roads."
+                ]
+            ],
+            [
+                "Pilea trichosanthes",
+                [
+                    "Pilea trichosanthes is a species of plant in the Urticaceae family.",
+                    " It is endemic to Ecuador.",
+                    " The natural habitats of Philea trichosanthes are subtropical or tropical moist lowland forests and subtropical or tropical moist montane forests."
+                ]
+            ],
+            [
+                "Trichosanthes",
+                [
+                    "Trichosanthes is a genus of tropical and subtropical vines.",
+                    " They belong to the cucumber family (Cucurbitaceae), and are closely related to \"Gymnopetalum\". \"",
+                    "Hodgsonia\", formerly included here, is usually considered a well-distinct genus nowadays."
+                ]
+            ],
+            [
+                "Plant Life Records",
+                [
+                    "Plant Life Records was a record label.",
+                    " It existed from 1977 until 1984.",
+                    " It was formed by Nigel Pegrum at that time drummer for Steeleye Span.",
+                    " Maddy Prior recorded one album for the label, as did Wizz Jones in 1977.",
+                    " The most successful recordings were by The Tannahill Weavers and Blowzabella.",
+                    " Most of the 30 or so albums were produced by Pegrum and 7 were produced by Paul James.",
+                    " Late in the life of the label it began issuing records under licence from other labels and was linked to the Burlington record label which was also issued with the Plant Life logo on the later labels."
+                ]
+            ],
+            [
+                "Plantago rugelii",
+                [
+                    "Plantago rugelii is a species of flowering plant in the plantain family, Plantaginaceae.",
+                    " It is native to North America, where it occurs in eastern Canada and the central and eastern United States.",
+                    " Its common names include American plantain, blackseed plantain, pale plantain, and Rugel's plantain.",
+                    " The generic name \"Plantago\" is from the Latin \"planta\" (\"footprint\") and the species name \"rugelii\" honors Ferdinand Ignatius Xavier Rugel (1806-1879), a German-born botanist and pharmacist."
+                ]
+            ],
+            [
+                "Important Plant Areas",
+                [
+                    "Important Plant Areas (IPA) is a programme set up in the UK, by the organisation Plantlife, to provide a framework for identifying and maintaining the richest sites for plant life, possibly within existing protected areas; though the protection of the IPA itself is not legally enforced.",
+                    " The term plant life in this case refers to any number of species, encompassing algae, fungi, lichens, liverworts, mosses, and wild vascular plants. IPAs are selected with the intention of focusing on the conservation of the important wild plant populations in these areas, and act as a subset in the broader context of Key Biodiversity Areas.",
+                    " Designating an IPA is intended to gain awareness and encourage long-term conservation through an 'ecosystem-based' approach."
+                ]
+            ],
+            [
+                "Plantago",
+                [
+                    "Plantago is a genus of about 200 species of small, inconspicuous plants commonly called plantains or fleaworts.",
+                    " The common name plantain is shared with the unrelated cooking plantain, a kind of banana.",
+                    " Most are herbaceous plants, though a few are subshrubs growing to 60 cm tall."
+                ]
+            ],
+            [
+                "Flora",
+                [
+                    "Flora is the plant life occurring in a particular region or time, generally the naturally occurring or indigenous—native plant life.",
+                    " The corresponding term for animal life is fauna.",
+                    " \"Flora\", \"fauna\" and other forms of life such as fungi are collectively referred to as biota.",
+                    " Sometimes bacteria and fungi are also referred to as flora, as in the terms gut flora or skin flora."
+                ]
+            ],
+            [
+                "Plantago princeps",
+                [
+                    "Plantago princeps is a rare species of flowering plant in the plantain family known by the common name ale.",
+                    " It is endemic to Hawaii, where it is known from the islands of Hawaii, Kauai, Oahu, Molokai, and Maui.",
+                    " Like other Hawaiian \"Plantago\", it is known as kuahiwi laukahi, or laukahi kuahiwi.",
+                    " It is a federally listed endangered species of the United States."
+                ]
+            ],
+            [
+                "Plantago hawaiensis",
+                [
+                    "Plantago hawaiensis is a rare species of flowering plant in the plantain family known by the common name Hawaiian plantain.",
+                    " It is endemic to Hawaii, where it is known only from the island of Hawaii.",
+                    " It grows on the slopes of Mauna Loa and Hualalai.",
+                    " Like other Hawaiian \"Plantago\", it is known as kuahiwi laukahi.",
+                    " It is a federally listed endangered species of the United States."
+                ]
+            ]
+#######################
+According to the above content, ask a question to yes:
+"""

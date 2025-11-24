@@ -1,0 +1,18 @@
+George Pell",
+                [
+                    "George Pell {'1': \", '2': \", '3': \", '4': \"} (born 8 June 1941) is an Australian cardinal prelate of the Catholic Church.",
+                    " He became the inaugural Prefect of the Secretariat for the Economy in 2014.",
+                    " He previously served as the eighth Archbishop of Sydney (2001–2014), Auxiliary Bishop of Melbourne (1987–1996), and Archbishop of Melbourne (1996–2001).",
+                    " He was created a cardinal in 2003.",
+                    " Ordained in 1966, he has also been an author, columnist, public speaker and sportsman, having been signed by the Richmond Football Club, an Australian Rules Football team, in 1959.",
+                    " Since becoming Archbishop of Melbourne in 1996, he has maintained a high public profile on a wide range of issues, while retaining a strict adherence to Catholic orthodoxy."
+                ]
+
+"Frank Little (bishop)",
+                [
+                    "Sir Thomas Francis \"Frank\" Little KBE (30 November 1925 – 7 April 2008) was the sixth Roman Catholic Archbishop of Melbourne.",
+                    " He was appointed by Pope Paul VI on 1 July 1974 and retired in 1996; succeeded by George Pell.",
+                    " On retirement he was styled Archbishop Emeritus in the Archdiocese of Melbourne."
+                ]
+#######################
+According to the above content, use George Pell, Frank Little (bishop), ask a question to Richmond Football Club:

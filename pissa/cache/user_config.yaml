@@ -1,0 +1,6 @@
+cache_dir: null
+lang: en
+last_model: LLaMA3-8B
+path_dict:
+  LLaMA3-8B: /root/autodl-fs/Meta-Llama-3-8B
+  Qwen2-7B-Chat: /root/autodl-fs/Meta-Llama-3-8B

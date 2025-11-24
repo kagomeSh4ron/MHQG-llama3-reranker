@@ -1,0 +1,181 @@
+06/26/2024 23:50:52 - WARNING - transformers.tokenization_utils_base - Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+06/26/2024 23:50:52 - INFO - llamafactory.data.template - Add pad token: <|end_of_text|>
+
+06/26/2024 23:50:52 - WARNING - transformers.tokenization_utils_base - Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+06/26/2024 23:50:52 - INFO - llamafactory.data.template - Add pad token: <|end_of_text|>
+
+06/26/2024 23:50:51 - INFO - transformers.tokenization_utils_base - loading file added_tokens.json
+
+06/26/2024 23:50:52 - WARNING - transformers.tokenization_utils_base - Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+06/26/2024 23:50:51 - INFO - transformers.tokenization_utils_base - loading file special_tokens_map.json
+
+06/26/2024 23:50:52 - INFO - llamafactory.data.template - Add pad token: <|end_of_text|>
+
+06/26/2024 23:50:51 - INFO - transformers.tokenization_utils_base - loading file tokenizer_config.json
+
+06/26/2024 23:50:52 - WARNING - transformers.tokenization_utils_base - Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+06/26/2024 23:50:52 - INFO - llamafactory.data.template - Add pad token: <|end_of_text|>
+
+06/26/2024 23:50:52 - INFO - llamafactory.data.loader - Loading dataset fine_tuning_train.json...
+
+06/26/2024 23:51:06 - INFO - llamafactory.data.loader - Loading dataset fine_tuning_train.json...
+
+06/26/2024 23:51:06 - INFO - llamafactory.data.loader - Loading dataset fine_tuning_train.json...
+
+06/26/2024 23:51:06 - INFO - llamafactory.data.loader - Loading dataset fine_tuning_train.json...
+
+06/26/2024 23:51:29 - INFO - transformers.configuration_utils - loading configuration file /root/autodl-fs/Meta-Llama-3-8B/config.json
+
+06/26/2024 23:51:29 - INFO - transformers.configuration_utils - Model config LlamaConfig {
+  "_name_or_path": "/root/autodl-fs/Meta-Llama-3-8B",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 128000,
+  "eos_token_id": 128001,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "max_position_embeddings": 8192,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 8,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 500000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.41.2",
+  "use_cache": true,
+  "vocab_size": 128256
+}
+
+
+06/26/2024 23:51:29 - INFO - transformers.modeling_utils - loading weights file /root/autodl-fs/Meta-Llama-3-8B/model.safetensors.index.json
+
+06/26/2024 23:51:29 - INFO - transformers.modeling_utils - Instantiating LlamaForCausalLM model under default dtype torch.float16.
+
+06/26/2024 23:51:29 - INFO - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "eos_token_id": 128001
+}
+
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.checkpointing - Gradient checkpointing enabled.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.attention - Using vanilla attention implementation.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Upcasting trainable params to float32.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Fine-tuning method: LoRA
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.misc - Found linear modules: gate_proj,o_proj,up_proj,v_proj,down_proj,k_proj,q_proj
+
+06/26/2024 23:52:48 - INFO - transformers.modeling_utils - All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+
+06/26/2024 23:52:48 - INFO - transformers.modeling_utils - All the weights of LlamaForCausalLM were initialized from the model checkpoint at /root/autodl-fs/Meta-Llama-3-8B.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+
+06/26/2024 23:52:48 - INFO - transformers.generation.configuration_utils - loading configuration file /root/autodl-fs/Meta-Llama-3-8B/generation_config.json
+
+06/26/2024 23:52:48 - INFO - transformers.generation.configuration_utils - Generate config GenerationConfig {
+  "bos_token_id": 128000,
+  "do_sample": true,
+  "eos_token_id": 128001,
+  "max_length": 4096,
+  "temperature": 0.6,
+  "top_p": 0.9
+}
+
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.checkpointing - Gradient checkpointing enabled.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.attention - Using vanilla attention implementation.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Upcasting trainable params to float32.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Fine-tuning method: LoRA
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.misc - Found linear modules: down_proj,o_proj,gate_proj,up_proj,v_proj,k_proj,q_proj
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.checkpointing - Gradient checkpointing enabled.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.attention - Using vanilla attention implementation.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Upcasting trainable params to float32.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Fine-tuning method: LoRA
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.checkpointing - Gradient checkpointing enabled.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.misc - Found linear modules: down_proj,v_proj,up_proj,q_proj,gate_proj,o_proj,k_proj
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.attention - Using vanilla attention implementation.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Upcasting trainable params to float32.
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.adapter - Fine-tuning method: LoRA
+
+06/26/2024 23:52:48 - INFO - llamafactory.model.model_utils.misc - Found linear modules: v_proj,down_proj,gate_proj,o_proj,up_proj,k_proj,q_proj
+
+06/26/2024 23:52:50 - INFO - llamafactory.model.loader - trainable params: 20971520 || all params: 8051232768 || trainable%: 0.2605
+
+06/26/2024 23:52:51 - INFO - llamafactory.model.loader - trainable params: 20971520 || all params: 8051232768 || trainable%: 0.2605
+
+06/26/2024 23:52:51 - INFO - transformers.trainer - Using auto half precision backend
+
+06/26/2024 23:52:51 - INFO - llamafactory.model.loader - trainable params: 20971520 || all params: 8051232768 || trainable%: 0.2605
+
+06/26/2024 23:52:51 - INFO - llamafactory.model.loader - trainable params: 20971520 || all params: 8051232768 || trainable%: 0.2605
+
+06/26/2024 23:52:53 - INFO - transformers.trainer - ***** Running training *****
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Num examples = 89,121
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Num Epochs = 3
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Instantaneous batch size per device = 2
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Total train batch size (w. parallel, distributed & accumulation) = 64
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Gradient Accumulation steps = 8
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Total optimization steps = 4,176
+
+06/26/2024 23:52:53 - INFO - transformers.trainer -   Number of trainable parameters = 20,971,520
+
+06/26/2024 23:53:43 - INFO - llamafactory.extras.callbacks - {'loss': 3.4757, 'learning_rate': 5.0000e-05, 'epoch': 0.00, 'throughput': 6580.86}
+
+06/26/2024 23:54:32 - INFO - llamafactory.extras.callbacks - {'loss': 3.0595, 'learning_rate': 4.9999e-05, 'epoch': 0.01, 'throughput': 6615.93}
+
+06/26/2024 23:55:21 - INFO - llamafactory.extras.callbacks - {'loss': 2.7293, 'learning_rate': 4.9999e-05, 'epoch': 0.01, 'throughput': 6628.37}
+
+06/26/2024 23:56:11 - INFO - llamafactory.extras.callbacks - {'loss': 2.3524, 'learning_rate': 4.9998e-05, 'epoch': 0.01, 'throughput': 6627.75}
+
+06/26/2024 23:57:00 - INFO - llamafactory.extras.callbacks - {'loss': 2.0812, 'learning_rate': 4.9996e-05, 'epoch': 0.02, 'throughput': 6624.31}
+
+06/26/2024 23:57:50 - INFO - llamafactory.extras.callbacks - {'loss': 1.8515, 'learning_rate': 4.9994e-05, 'epoch': 0.02, 'throughput': 6626.13}
+
+06/26/2024 23:58:39 - INFO - llamafactory.extras.callbacks - {'loss': 1.7419, 'learning_rate': 4.9992e-05, 'epoch': 0.03, 'throughput': 6626.56}
+
+06/26/2024 23:59:28 - INFO - llamafactory.extras.callbacks - {'loss': 1.7790, 'learning_rate': 4.9990e-05, 'epoch': 0.03, 'throughput': 6628.46}
+
+06/27/2024 00:00:18 - INFO - llamafactory.extras.callbacks - {'loss': 1.6721, 'learning_rate': 4.9987e-05, 'epoch': 0.03, 'throughput': 6625.81}
+
+06/27/2024 00:01:07 - INFO - llamafactory.extras.callbacks - {'loss': 1.6426, 'learning_rate': 4.9984e-05, 'epoch': 0.04, 'throughput': 6625.15}
+
+06/27/2024 00:01:57 - INFO - llamafactory.extras.callbacks - {'loss': 1.6328, 'learning_rate': 4.9980e-05, 'epoch': 0.04, 'throughput': 6626.00}
+
+06/27/2024 00:02:46 - INFO - llamafactory.extras.callbacks - {'loss': 1.4699, 'learning_rate': 4.9976e-05, 'epoch': 0.04, 'throughput': 6626.86}
+
